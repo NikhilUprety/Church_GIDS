@@ -1,3 +1,4 @@
+using Church_GIDS.Controllers;
 using Church_GIDS.Data;
 using Church_GIDS.Service;
 using Microsoft.EntityFrameworkCore;
@@ -10,7 +11,7 @@ builder.Services.AddDbContext<AppDbContext>(options =>
     options.UseNpgsql(builder.Configuration.GetConnectionString("PostgresConnection")));
 
 
-builder.Services.AddHttpClient();
+builder.Services.AddHttpClient<AddressVerificationController>();
 
 builder.Services.AddControllers();
 

@@ -22,8 +22,8 @@ namespace Church_GIDS.Controllers
             
             var churches = new  List<Church>()
         {
-              new Church { Id = 1, Name = "Grace Church", Address = "123 Main St, City", Latitude = 40.7128, Longitude = -74.0060 },
-                new Church { Id = 2, Name = "Hope Church", Address = "456 Elm St, Town", Latitude = 34.0522, Longitude = -118.2437 },
+                new Church { Id = 1, Name = "Beiliever Estern church", Address = "birtamode", Latitude = 26.637025120098013, Longitude = 87.98536866865793 },
+                new Church { Id = 2, Name = "Hope Church", Address = "sanischare", Latitude = 26.65392488779336, Longitude = 87.99073497530927 },
                 new Church { Id = 3, Name = "Faith Church", Address = "789 Oak St, Village", Latitude = 41.8781, Longitude = -87.6298 },
                 new Church { Id = 4, Name = "Charity Church", Address = "101 Maple Ave, Metropolis", Latitude = 37.7749, Longitude = -122.4194 },
                 new Church { Id = 5, Name = "Unity Church", Address = "202 Birch Rd, Suburb", Latitude = 39.9526, Longitude = -75.1652 },
